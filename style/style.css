@@ -1,0 +1,254 @@
+@font-face {
+    font-family: akronim;
+    src: url(../font/Akronim-Regular.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: sans-serif;
+background-color: rgb(128, 128, 138);
+background-image: url(../image/double-bubble.png);
+}
+
+.action-btn {
+display: inline-block;
+font-size: 20px;
+text-decoration: none;
+color: white;
+font-weight: 700;
+background: #1139c9;
+padding: 0.5em 1em;
+border-radius: 30px;
+margin: 1em 0;
+transition: 0.3s;
+}
+
+.action-btn:hover {
+    color: rgb(24, 215, 240);
+    background: #1139c979;
+    border: 1px solid #1139c9;
+}
+
+.header .logo {
+    color: white;
+    float: left;
+    font-size: 35px;
+    padding-top: 0px;
+    font-family: akronim;
+}
+
+.header {
+width: 100%;
+position: fixed;
+overflow: hidden;
+background:#2c2c2c;
+margin: auto;
+height: 50px;
+top: 0px;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 15px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: rgb(24, 215, 240);
+    text-decoration: underline;
+}
+
+.container {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.about {
+    margin-right: 700px;
+    margin-left: 120px;
+    margin-top: 145px;
+    margin-bottom: 185px;
+    font-size: 25px;
+}
+h3 {color:#1139c9;}
+
+.foto {
+    background: rgb(75, 69, 69);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-image: url(../image/IMG_8152-removebg-previeww.png);
+    background-size: cover;
+    position: absolute;
+    top: 130px;
+    right: 120px;
+    z-index: -99;
+}
+
+footer {
+    bottom: auto;
+    background:#2c2c2c;
+    width: auto;
+    font-family: open sans-serif;
+    padding-top: 40px;
+    color: #fff;
+    position: relative;
+}
+
+
+.footer-bottom {
+    background: rgb(30, 26, 36);
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+footer ul {
+    max-width: 640px;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+list-style: none;
+align-self: flex-end;
+}
+
+footer ul li a{
+text-decoration: none;
+color: #c1c6ce;
+}
+
+footer ul li img {
+width: 30%;
+}
+
+footer p {
+font-size: 0.8em;
+}
+
+.icon {
+    position: absolute;
+    top: 22px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.tombol {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #2980b9;
+}
+
+.tombol i {
+    transition: 0.2s linear;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tombol:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.tombol::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: -150;
+    top: 150%;
+    transform: rotate(45deg);
+    background: #3498db;
+}
+
+.tombol:hover::before {
+    left: -100%;
+    top: -100%;
+    animation: aaa 0.7s 1;
+}
+@keyframes aaa {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+.portofolio {
+    height: 412px;
+    font-size: 25px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+}
+
+.buttoncv {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #1139c9;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    margin: 1em 0;
+    transition: 0.3s;
+    }
+    
+.buttoncv:hover {
+    color: rgb(24, 215, 240);
+    background: #1139c979;
+    border: 1px solid #1139c9;
+}
