@@ -15,45 +15,22 @@ body {
     background-image: url(../Assets/Background.png);
 }
 
-.action-btn {
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    background: #1139c9;
-    padding: 0.5em 1em;
-    border-radius: 30px;
-    margin: 1em 0;
-    transition: 0.3s;
-}
-
-.action-btn:hover {
-    color: rgb(24, 215, 240);
-    background: #1139c979;
-    border: 1px solid #1139c9;
-}
-
 .header .logo {
     color: white;
     float: left;
-    font-size: 35px;
+    font-size: 18px;
     padding-top: 0px;
 }
 
 .header {
-    width: 100%;
-    position: fixed;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     background:#2c2c2c;
-    margin: auto;
-    height: 50px;
-    top: 0px;
+    padding: 20px 50px;
 }
 
 .header .navigation {
     float: right;
-    margin-top: 15px;
 }
 
 .header .navigation li {
@@ -73,10 +50,23 @@ body {
     text-decoration: underline;
 }
 
-.container {
-    width: 95%;
-    overflow: hidden;
-    margin: auto;
+.action-btn {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #1139c9;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    margin: 1em 0;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    color: rgb(24, 215, 240);
+    background: #1139c979;
+    border: 1px solid #1139c9;
 }
 
 .about {
