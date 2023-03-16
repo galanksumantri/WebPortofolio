@@ -16,7 +16,7 @@ padding: 0;
 body {
 font-family: sans-serif;
 background-color: rgb(128, 128, 138);
-background-image: url(../image/double-bubble.png);
+background-image: url(../Assets/Background.png);
 }
 
 .action-btn {
@@ -98,7 +98,7 @@ h3 {color:#1139c9;}
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background-image: url(../image/IMG_8152-removebg-previeww.png);
+    background-image: url(../Assets/MySelf.png);
     background-size: cover;
     position: absolute;
     top: 130px;
