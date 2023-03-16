@@ -144,12 +144,10 @@ footer p {
     text-decoration: none;
 }
 
-.portofolio {
-    height: 412px;
+.container {
+    height: 45%;
     font-size: 25px;
-    margin-top: 130px;
-    margin-bottom: 150px;
-    margin-left: 120px;
+    margin: 190px 120px;
 }
 
 .buttonBg {
