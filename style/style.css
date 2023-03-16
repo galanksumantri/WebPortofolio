@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     background:#2c2c2c;
-    padding: 20px 50px;
+    padding: 20px 120px;
 }
 
 .header .navigation {
@@ -69,13 +69,18 @@ body {
     border: 1px solid #1139c9;
 }
 
-.about {
-    margin-right: 700px;
-    margin-left: 120px;
-    margin-top: 145px;
-    margin-bottom: 185px;
-    font-size: 25px;
+.deskripsi {
+    padding: 10% 120px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.about {
+    font-size: 25px;
+    width: 50%;
+    margin: auto 0;
+}
+
 h3 {
     color:#1139c9;
 }
@@ -87,20 +92,15 @@ h3 {
     border-radius: 50%;
     background-image: url(../Assets/MySelf.png);
     background-size: cover;
-    position: absolute;
-    top: 130px;
-    right: 120px;
-    z-index: -99;
 }
 
 footer {
-    bottom: auto;
     background:#2c2c2c;
-    width: auto;
+    width: 100%;
     font-family: open sans-serif;
     padding-top: 40px;
     color: #fff;
-    position: relative;
+    position: absolute;
 }
 
 
