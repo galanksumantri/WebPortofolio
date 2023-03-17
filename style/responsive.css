@@ -22,7 +22,7 @@
 
 /* Smartphone */
 @media all and (max-width: 800px) {
-    .menu-icon {
+    .header span {
         display: block;
     }
     
