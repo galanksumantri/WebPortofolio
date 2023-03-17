@@ -13,6 +13,11 @@
         padding: 20px 80px;
     }
 
+    .container {
+        height: 45%;
+        margin: 190px 80px;
+    }
+
 }
 
 /* Smartphone */
@@ -28,7 +33,7 @@
     .header .navigation {
         display: none;
     }
-    
+
     .foto {
         width: 300px;
         height: 300px;
@@ -46,6 +51,11 @@
 
     .foto {
         margin: auto;
+    }
+    
+    .container {
+        height: 45%;
+        margin: 40% 5%;
     }
 
 }
